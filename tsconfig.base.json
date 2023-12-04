@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": ["es2017", "dom"],
+    "declaration": true, // 모듈의 타입 선언 파일을 생성 ( .d.ts 파일 )
+    "declarationMap": true, // 모듈의 타입 선언 파일의 맵 파일을 생성 ( .d.ts.map 파일 )
+    "sourceMap": true,
+    "rootDir": ".",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "incremental": true // 컴파일 시 이전 컴파일의 캐시를 사용하여 속도를 높임
+  }
+}
