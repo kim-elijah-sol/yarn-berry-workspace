@@ -2,7 +2,8 @@
   "name": "yarn-berry-workspace",
   "packageManager": "yarn@4.0.2",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "apps/*"
   ],
   "devDependencies": {
     "@types/eslint": "^8.44.8",
