@@ -20,7 +20,8 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@ybw/react-components": ["../../packages/react/components/src"]
+      "@ybw/react-components": ["../../packages/react/components/src"],
+      "@ybw/common-utils": ["../../packages/common/utils/src"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
