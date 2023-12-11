@@ -1,0 +1,8 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react", // react 컴포넌트를 사용하기 위해 jsx를 react로 설정
+    "outDir": "./dist"
+  },
+  "exclude": ["node_modules", "dist"]
+}

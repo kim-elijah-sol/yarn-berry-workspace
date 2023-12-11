@@ -1491,6 +1491,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@ybw/react-hooks@workspace:^, @ybw/react-hooks@workspace:packages/react/hooks":
+  version: 0.0.0-use.local
+  resolution: "@ybw/react-hooks@workspace:packages/react/hooks"
+  dependencies:
+    "@types/node": "npm:^20"
+    "@types/react": "npm:^18"
+    "@types/react-dom": "npm:^18"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    typescript: "npm:^5"
+  languageName: unknown
+  linkType: soft
+
 "abab@npm:^2.0.6":
   version: 2.0.6
   resolution: "abab@npm:2.0.6"
@@ -5254,6 +5267,7 @@ __metadata:
     "@types/react-dom": "npm:^18"
     "@ybw/common-utils": "workspace:^"
     "@ybw/react-components": "workspace:^"
+    "@ybw/react-hooks": "workspace:^"
     next: "npm:14.0.4"
     react: "npm:^18"
     react-dom: "npm:^18"

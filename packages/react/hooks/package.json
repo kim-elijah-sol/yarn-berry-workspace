@@ -1,0 +1,22 @@
+{
+  "name": "@ybw/react-hooks",
+  "packageManager": "yarn@4.0.2",
+  "main": "dist/packages/react/hooks/src/index.js",
+  "typings": "dist/packages/react/hooks/src/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
