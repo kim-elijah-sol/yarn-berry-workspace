@@ -2,7 +2,8 @@
   "extends": "../../../tsconfig.base.json",
   "compilerOptions": {
     "jsx": "react", // react 컴포넌트를 사용하기 위해 jsx를 react로 설정
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "types": ["node", "jest", "@testing-library/jest-dom"]
   },
   "include": ["./src/**/*"],
   "exclude": ["node_modules", "dist"]
