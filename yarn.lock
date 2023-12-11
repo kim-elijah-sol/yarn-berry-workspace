@@ -1314,6 +1314,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ybw/common-utils@workspace:^, @ybw/common-utils@workspace:packages/common/utils":
+  version: 0.0.0-use.local
+  resolution: "@ybw/common-utils@workspace:packages/common/utils"
+  dependencies:
+    "@types/node": "npm:^20"
+    typescript: "npm:^5"
+  languageName: unknown
+  linkType: soft
+
 "@ybw/react-components@workspace:^, @ybw/react-components@workspace:packages/react/components":
   version: 0.0.0-use.local
   resolution: "@ybw/react-components@workspace:packages/react/components"
@@ -4709,6 +4718,7 @@ __metadata:
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
+    "@ybw/common-utils": "workspace:^"
     "@ybw/react-components": "workspace:^"
     next: "npm:14.0.4"
     react: "npm:^18"

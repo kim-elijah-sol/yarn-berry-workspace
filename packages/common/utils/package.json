@@ -1,0 +1,16 @@
+{
+  "name": "@ybw/common-utils",
+  "packageManager": "yarn@4.0.2",
+  "main": "dist/packages/common/utils/src/index.js",
+  "typings": "dist/packages/common/utils/src/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "typescript": "^5"
+  }
+}
